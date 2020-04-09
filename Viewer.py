@@ -1,4 +1,4 @@
-import Maze
+import Viewer
 
 def view(grid):
 	#TBD

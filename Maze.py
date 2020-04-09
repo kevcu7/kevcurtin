@@ -1,4 +1,4 @@
-import GridViewer(grid)
+import Viewer(grid)
 
 EMPTY = 0
 WALL = 1
@@ -23,7 +23,7 @@ if __name__ == "__main__":
         [ WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL,  WALL, WALL],
     ]
                     
-   GridViewer.View(grid)
+   Viewer.View(grid)
 
     print("Find a solution to get from ^^ to $$, using the characters " 
         + "'" + NORTH + "', '" + EAST + "', '" + SOUTH + "' and '" + WEST + "'"
